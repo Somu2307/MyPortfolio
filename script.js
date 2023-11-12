@@ -57,7 +57,7 @@ document.getElementById('disableRightClick1').addEventListener('contextmenu', fu
 
 //multiple text 
 const typed = new Typed('.multipletext', {
-    strings: ['Frontend Developer', 'UI/UX Designer', 'Graphics Designer'],
+    strings: ['Frontend Developer', 'UI/UX Designer', 'Graphics Designer', 'Photographer'],
     typeSpeed: 100,  
     backSpeed: 100,
     backDelay: 1000,
