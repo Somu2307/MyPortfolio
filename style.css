@@ -345,6 +345,10 @@ span{
 .portfoliolayer h4{
     font-size: 3rem;
 }
+.portfoliolayer h4 a{
+    color: white;
+    font-size: 3rem;
+}
 .portfoliolayer p{
     font-size: 1.4rem;
     margin: 3rem 0 1rem;
