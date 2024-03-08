@@ -15,10 +15,10 @@ body{
     max-width: 600px;
     margin: 50px auto ;
     padding: 20px;
-    background: rgba(217, 25, 25, 0.03);/*light blue with transperency*/
+    background: rgba(44, 22, 4, 0.03);/*light blue with transperency*/
     border-radius: 10px;
     backdrop-filter: blur(4px);
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 20px rgba(142, 90, 47, 0.8);;
     transition: background-color 0.3s; /*smooth transition*/
 }
 
