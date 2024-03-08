@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://marketplace.canva.com/EAE5bWohaeE/2/0/1600w/canva-aesthetic-desktop-wallpaper-theme-Vccm8snJsMs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container{
+    /* border: solid black; */
+    max-width: 600px;
+    margin: 50px auto ;
+    padding: 20px;
+    background: rgba(217, 25, 25, 0.03);/*light blue with transperency*/
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 20px;
+    transition: background-color 0.3s; /*smooth transition*/
+}
+
+.linkitems{
+    text-align: center;
+    margin-top: 20px;
+}
+.linkitem{
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s; /*smooth transition*/
+    display: block;
+    display: block;
+    position: relative;
+    padding-left: 40px;
+}
+
+.linkitem:hover{
+    background-color: rgba(142, 90, 47, 0.8); /*#007bff blue color*/
+}
+
+.linkitem a{
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkitem a:hover{
+    color: whitesmoke;
+}
+
+.linkitem i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.linkitem:hover i{
+    color: whitesmoke;
+}
+
+.profileimage{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 12px #511606;
+}
