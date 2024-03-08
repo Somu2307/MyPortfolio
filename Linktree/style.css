@@ -1,7 +1,9 @@
 body{
     background-image: url("https://marketplace.canva.com/EAE5bWohaeE/2/0/1600w/canva-aesthetic-desktop-wallpaper-theme-Vccm8snJsMs.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -15,7 +17,7 @@ body{
     padding: 20px;
     background: rgba(217, 25, 25, 0.03);/*light blue with transperency*/
     border-radius: 10px;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(4px);
     box-shadow: 0 0 20px;
     transition: background-color 0.3s; /*smooth transition*/
 }
@@ -70,3 +72,11 @@ body{
     margin-top: 20px;
     box-shadow: 0 0 12px #511606;
 }
+
+/*for mobile view*/
+/* @media only screen and(max-width: 768px){
+    body{
+        background-image: url("https://marketplace.canva.com/EAE5bWohaeE/2/0/1600w/canva-aesthetic-desktop-wallpaper-theme-Vccm8snJsMs.jpg");
+        background-size: cover;
+    }
+} */
