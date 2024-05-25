@@ -73,3 +73,24 @@ const typeds = new Typed('.aboutmultitext', {
     backDelay: 1000,
     loop: true
 });
+
+// QR CODE
+document.addEventListener('DOMContentLoaded', function() {
+    const qrButtons = document.querySelectorAll('.qrbutton');
+    const qrOverlay = document.getElementById('qrOverlay');
+    const qrImage = document.getElementById('qrImage');
+    const closeButton = document.getElementById('closeButton');
+
+    qrButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const qrSrc = button.getAttribute('data-qr');
+            qrImage.src = qrSrc;
+            qrOverlay.classList.add('active');
+        });
+    });
+
+    closeButton.addEventListener('click', function() {
+        qrOverlay.classList.remove('active');
+        qrImage.src = ''; // Clear the QR image source when closing
+    });
+});
